@@ -10,5 +10,13 @@
     "ember-addon"
   ],
   "author": "Manuel Mitasch",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/manuelmitasch/ember-cli-rest-api-blueprint.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manuelmitasch/ember-cli-rest-api-blueprint/issues"
+  },
+  "homepage": "https://github.com/manuelmitasch/ember-cli-rest-api-blueprint"
 }
