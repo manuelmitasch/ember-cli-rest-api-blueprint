@@ -1,3 +1,6 @@
+Warning: currently only works with ember-cli master until it's version is > 0.0.37
+
+
 Ember CLI Addon: REST API (compatible with DS.RESTAdapter)
 ==================================================
 
