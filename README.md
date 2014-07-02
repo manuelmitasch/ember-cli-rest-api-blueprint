@@ -9,19 +9,11 @@ This [Ember CLI](https://github.com/stefanpenner/ember-cli) addon provies a `res
 It creates express routes in 'server/routes/' that are then automatically served through the `ember serve` command.
 
 
-Usage
+Install
 -------
 
-To create a REST API for a model called `post` type:
-
 ```
-ember generate rest-api post
-```
-
-The REST API is namespaced with `/api` to avoid route collisions with the routes defined in your Ember app. Thus, it can be accessed through:
-
-```
-0.0.0.0:4200/api/posts
+npm install ember-cli-rest-api-blueprint --save-dev
 ```
 
 
@@ -36,8 +28,24 @@ The generated REST API depends on
 Thus, you need to add these dependencies to your project with:
 
 ```
-npm install nedb --save
-npm install git://github.com/manuelmitasch/ember-inflector-node-shim --save
+npm install nedb --save-dev
+npm install git://github.com/manuelmitasch/ember-inflector-node-shim --save-dev
+```
+
+
+Usage
+-------
+
+To create a REST API for a model called `post` type:
+
+```
+ember generate rest-api post
+```
+
+The REST API is namespaced with `/api` to avoid route collisions with the routes defined in your Ember app. Thus, it can be accessed through:
+
+```
+0.0.0.0:4200/api/posts
 ```
 
 
