@@ -1,0 +1,14 @@
+{
+  "name": "ember-cli-rest-api-blueprint",
+  "version": "0.0.0",
+  "description": "Ember CLI blueprint addon for a DS.RESTAdapter compatible REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ember-addon"
+  ],
+  "author": "Manuel Mitasch",
+  "license": "MIT"
+}
